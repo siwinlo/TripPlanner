@@ -1,8 +1,6 @@
 const mapboxgl = require("mapbox-gl");
 const buildMarker = require("./marker");
 
-
-
 mapboxgl.accessToken =
   "pk.eyJ1Ijoic2l3aW5sbyIsImEiOiJjano4a2xxc3AxN3BhM2tvZTlocGpmNWhlIn0.j7x-VBjsj3qWZZnMGouNkA";
 
@@ -17,8 +15,6 @@ const marker = buildMarker("restaurants", [-74.009151, 40.705086]); // or [-87.6
 //const marker = buildMarker("", [-74.009151, 40.705086]); // or [-87.6354, 41.8885]
 marker.addTo(map);
 //console.log(marker)
-
-
 
 // const markerDomEl = document.createElement("div");
 // markerDomEl.style.height = "39px";
