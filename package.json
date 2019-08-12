@@ -4,7 +4,8 @@
   "description": "TripPlanner project with Bici and Siwin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/siwinlo/TripPlanner/issues"
   },
-  "homepage": "https://github.com/siwinlo/TripPlanner#readme"
+  "homepage": "https://github.com/siwinlo/TripPlanner#readme",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "mapbox-gl": "^1.2.1"
+  }
 }
